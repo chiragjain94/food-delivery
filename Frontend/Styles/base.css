@@ -17,3 +17,17 @@ li a:hover {
   background-color: cornsilk;
   border-radius: 5px;
 }
+
+.image {
+	width: 1700px;
+	height: 700px;
+	background-size: contain;
+}
+
+header {
+	text-align: center;
+}
+
+h5, p {
+	color: black;
+}

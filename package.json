@@ -1,0 +1,23 @@
+{
+  "name": "food-delivery",
+  "version": "1.0.0",
+  "description": "In house website to order food from various tables and create a summary for final user.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chiragjain94/food-delivery.git"
+  },
+  "author": "Chirag",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chiragjain94/food-delivery/issues"
+  },
+  "homepage": "https://github.com/chiragjain94/food-delivery#readme",
+  "devDependencies": {
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  }
+}

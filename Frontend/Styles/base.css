@@ -1,6 +1,7 @@
 .body-wrapper {
   max-width: 1024px;
   background-color: white;
+  margin: 0 auto;
 }
 
 ul {
@@ -18,16 +19,11 @@ li a:hover {
   border-radius: 5px;
 }
 
-.image {
-	width: 1700px;
-	height: 700px;
-	background-size: contain;
+.carousel-heading {
+  font-size: 28px;
+  color: black;
 }
-
-header {
-	text-align: center;
-}
-
-h5, p {
-	color: black;
+.carousel-text {
+  font-size: 18px;
+  color: black;
 }

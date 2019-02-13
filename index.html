@@ -60,45 +60,60 @@
     </nav>
     <!-- carousel -->
     <div
-      id="carouselExampleIndicators"
+      id="carouselHomepage"
       class="carousel slide"
       data-ride="carousel"
+      data-interval="3000"
     >
       <ol class="carousel-indicators">
         <li
-          data-target="#carouselExampleIndicators"
+          data-target="#carouselHomepage"
           data-slide-to="0"
           class="active"
         ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselHomepage" data-slide-to="1"></li>
+        <li data-target="#carouselHomepage" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
-        <div class="carousel-item active image">
-          <img src="./Frontend/img9.jpg" class="d-block w-100" />
+        <div class="carousel-item active carousel-image">
+          <img
+            alt="Image displaying differnet vegetables."
+            class="d-block w-100"
+            src="./Frontend/images/vegetables.jpg"
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h5>This is the caption</h5>
-            <p>This is the para</p>
+            <h5 class="carousel-heading">Perfect Vegetables</h5>
+            <p class="carousel-text">Freshly handpicked from the market.</p>
           </div>
         </div>
-        <div class="carousel-item image">
-          <img src="./Frontend/img10.jpg" class="d-block w-100" />
+        <div class="carousel-item carousel-image">
+          <img
+            alt="Image showcasing food on table."
+            class="d-block w-100"
+            src="./Frontend/images/food-on-table.jpg"
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h5>This is the caption</h5>
-            <p>This is the para</p>
+            <h5 class="carousel-heading">Delicious Food</h5>
+            <p class="carousel-text">Delightful food with your fav sliders.</p>
           </div>
         </div>
-        <div class="carousel-item image">
-          <img src="./Frontend/img11.jpg" class="d-block w-100" />
+        <div class="carousel-item carousel-image">
+          <img
+            alt="Chooping board image on a table."
+            class="d-block w-100"
+            src="./Frontend/images/chopping-board.jpg"
+          />
           <div class="carousel-caption d-none d-md-block">
-            <h5>This is the caption</h5>
-            <p>This is the para</p>
+            <h5 class="carousel-heading">Fresh chopped Vegetables</h5>
+            <p class="carousel-text">
+              Fresh vegetables and fruits used always.
+            </p>
           </div>
         </div>
       </div>
       <a
         class="carousel-control-prev"
-        href="#carouselExampleIndicators"
+        href="#carouselHomepage"
         role="button"
         data-slide="prev"
       >
@@ -107,7 +122,7 @@
       </a>
       <a
         class="carousel-control-next"
-        href="#carouselExampleIndicators"
+        href="#carouselHomepage"
         role="button"
         data-slide="next"
       >

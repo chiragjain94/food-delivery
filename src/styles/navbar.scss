@@ -1,14 +1,16 @@
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+.navbar-wrapper {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
-li {
-  float: left;
-}
+  li {
+    float: left;
+  }
 
-li a:hover {
-  background-color: cornsilk;
-  border-radius: 5px;
+  li a:hover {
+    background-color: cornsilk;
+    border-radius: 5px;
+  }
 }

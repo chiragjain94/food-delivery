@@ -27,7 +27,7 @@
     </div>
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-light bg-light navbar-wrapper">
-      <a class="navbar-brand" href="#">Fusion Hotel</a>
+      <a class="navbar-brand" href="#" onclick="homeClicked()">Fusion Hotel</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -47,13 +47,13 @@
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Order Now</a>
+            <a class="nav-link" id="orderNow" onclick="orderNowClicked()" href="#">Order Now</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" id="aboutUs" onclick="aboutUsClicked()" href="#">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" id="contactUs" onclick="contactUsClicked()" href="#">Contact Us</a>
           </li>
         </ul>
       </div>
@@ -130,7 +130,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    <div class="about-wrapper">
+    <div class="about-wrapper" id="aboutWrapper">
       <h2>About Us</h2>
       <p>
         Fusion hotel was started in 2016 by Mr. Dagli. He has over 20 years of
@@ -138,7 +138,7 @@
         before started out something of his own.
       </p>
     </div>
-    <div class="contact-wrapper">
+    <div class="contact-wrapper" id="contactWrapper">
       <h2>Contact Us</h2>
       <p>
         Fusion hotel, <br />
@@ -162,5 +162,28 @@
       crossorigin="anonymous"
     ></script>
     <script src="dist/main.js"></script>
+    <script type="text/javascript">
+      
+      function aboutUsClicked(){
+      carouselHomepage.style.visibility = 'hidden';
+      contactWrapper.style.visibility = 'hidden';
+      aboutWrapper.style.visibility = 'visible';
+      /*aboutWrapper.style.position ='fixed';
+      aboutWrapper.style.Top = 0;*/
+      } 
+
+      function contactUsClicked(){
+      carouselHomepage.style.visibility = 'hidden';
+      aboutWrapper.style.visibility = 'hidden';
+      contactWrapper.style.visibility = 'visible';
+      } 
+
+      function homeClicked() {
+      carouselHomepage.style.visibility = 'visible';
+      contactWrapper.style.visibility = 'hidden';
+      aboutWrapper.style.visibility = 'hidden';
+      }
+
+    </script>
   </body>
 </html>
